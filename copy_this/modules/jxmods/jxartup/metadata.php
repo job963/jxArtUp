@@ -16,14 +16,15 @@ $aModule = array(
                         'en' => 'Admin Module for Scheduling and Running Product Updates'
                         ),
     'thumbnail'    => 'jxartup.png',
-    'version'      => '0.3.4',
+    'version'      => '0.3.6',
     'author'       => 'Joachim Barthel',
     'url'          => 'https://github.com/job963/jxArtUp',
     'email'        => 'jobarthel@gmail.com',
     'extend'       => array(
                         ),
     'files'        => array(
-                        'jxartup' => 'jxmods/jxartup/application/controllers/admin/jxartup.php'
+                        'jxartup'           => 'jxmods/jxartup/application/controllers/admin/jxartup.php',
+                        'jxartup_install'   => 'jxmods/jxartup/application/controllers/admin/jxartup_install.php'
                         ),
     'templates'    => array(
                         'jxartup.tpl' => 'jxmods/jxartup/application/views/admin/tpl/jxartup.tpl'
